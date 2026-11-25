@@ -5,6 +5,7 @@
 !/README.md
 !/.gitignore
 !/.gitattributes
+!/LICENSE
 
 *.private.0
 *.private.0.meta
