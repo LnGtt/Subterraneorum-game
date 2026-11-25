@@ -1,0 +1,10 @@
+/*
+!/Assets/
+!/Packages/
+!/ProjectSettings/
+!/README.md
+!/.gitignore
+!/.gitattributes
+
+*.private.0
+*.private.0.meta

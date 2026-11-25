@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96252b52e81ad04d9741ebc3bc4ebe6, type: 3}
+  m_Name: Wizard
+  m_EditorClassIdentifier: Assembly-CSharp::ClassDefinition
+  classId: Wizard
+  displayName: Pollienus
+  roleName: Mago
+  description: "Magia em \xE1rea contra hordas e cura para os aliados."
+  color: {r: 0.35, g: 0.6, b: 1, a: 1}
+  prefab: {fileID: 7325392287692844167, guid: 11fa95c86ede35441bec375ded6fb514, type: 3}
+  maxHealth: 85
+  moveSpeed: 5.8
+  dashCooldown: 0.9
+  attackStyle: 1
+  attackDamage: 22
+  attackCooldown: 0.55
+  attackRadius: 1
+  projectileSpeed: 15
+  projectileRange: 11
+  projectilePrefab: {fileID: 1688195539091494646, guid: 644f7e4ed8af5f346a3488fce374ba3e, type: 3}
+  lifeSteal: 0
+  ability1: {fileID: 11400000, guid: 6e37d596083707b4c980eadbe4547db0, type: 2}
+  ability2: {fileID: 11400000, guid: 80c62b3aebc2f944caa66d30838dc4e7, type: 2}

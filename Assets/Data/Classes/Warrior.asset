@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96252b52e81ad04d9741ebc3bc4ebe6, type: 3}
+  m_Name: Warrior
+  m_EditorClassIdentifier: Assembly-CSharp::ClassDefinition
+  classId: Warrior
+  displayName: Nanus Ferox
+  roleName: Guerreiro
+  description: 'Linha de frente: espada pesada, aguenta o tranco e protege o grupo.'
+  color: {r: 0.9, g: 0.35, b: 0.25, a: 1}
+  prefab: {fileID: 7310548339042071306, guid: 857cd716aac26b04084bc8ce636c7b07, type: 3}
+  maxHealth: 150
+  moveSpeed: 5.5
+  dashCooldown: 0.9
+  attackStyle: 0
+  attackDamage: 30
+  attackCooldown: 0.6
+  attackRadius: 1.6
+  projectileSpeed: 18
+  projectileRange: 12
+  projectilePrefab: {fileID: 0}
+  lifeSteal: 0
+  ability1: {fileID: 11400000, guid: 00be81b31ff175a45b3cac3bc37949de, type: 2}
+  ability2: {fileID: 11400000, guid: 48cc1f2263295384eb688da2d8604e2e, type: 2}

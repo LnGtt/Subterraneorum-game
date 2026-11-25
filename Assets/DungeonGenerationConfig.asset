@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6203bcf166868e348b8f7152ea48184a, type: 3}
+  m_Name: DungeonGenerationConfig
+  m_EditorClassIdentifier: Assembly-CSharp::ProceduralRuins.DungeonGenerationConfig
+  cellSize: 4
+  wallRotationOffset: 0
+  floorRotationCorrection: {x: 0, y: 0, z: 0}
+  wallRotationCorrection: {x: 0, y: 0, z: 0}
+  placeCorners: 0
+  pieceScale: 2
+  cameraFacingWallHeightScale: 0.35
+  wallColliderHeight: 3
+  wallColliderThickness: 0.5
+  floorPrefabs:
+  - {fileID: 919132149155446097, guid: fc1bab73c2066ad40aee3a8f2f92112f, type: 3}
+  - {fileID: 919132149155446097, guid: 2389a51a0ba483244b157749a2599aa8, type: 3}
+  - {fileID: 919132149155446097, guid: 1d3d4e5f5d0e91642a80a2c0feab1915, type: 3}
+  - {fileID: 919132149155446097, guid: 58c15e7f30db1cb40b7ec4da607ce206, type: 3}
+  - {fileID: 919132149155446097, guid: 2a3da189e59b3dd4c93ea4a04de016bb, type: 3}
+  floorDecorativePrefabs:
+  - {fileID: 919132149155446097, guid: aca022987a5d7114abb283161d8b8675, type: 3}
+  floorHolePrefabs: []
+  wallPrefabs:
+  - {fileID: 919132149155446097, guid: c5853d46b204a5241976e93a71cb3fbc, type: 3}
+  - {fileID: 919132149155446097, guid: adbbae1ce8e0b9141a6106843e3917ba, type: 3}
+  wallBrokenPrefabs:
+  - {fileID: 919132149155446097, guid: 92929070b21cb894fb82236b8dfafc0f, type: 3}
+  - {fileID: 919132149155446097, guid: c84e87414a39aa94d979f98cc6e6c4ea, type: 3}
+  - {fileID: 919132149155446097, guid: 76aec4a39d8aaa34cac01cfa9b5c346a, type: 3}
+  - {fileID: 919132149155446097, guid: 15753152029b10b4d9279d407bcb85ba, type: 3}
+  wallWindowPrefabs:
+  - {fileID: 919132149155446097, guid: 628d4e68cef495c4d96cd0bf05689b90, type: 3}
+  - {fileID: 919132149155446097, guid: d15bcc49170b5274f8fde0fbadda4105, type: 3}
+  - {fileID: 919132149155446097, guid: 5c848a777fcb17648a3b491c64febd81, type: 3}
+  - {fileID: 919132149155446097, guid: 31563b82af5d6b940948f31014d0791e, type: 3}
+  - {fileID: 919132149155446097, guid: 7824c0ccbcd4f41489ce11d12de7d5ac, type: 3}
+  cornerPrefabs:
+  - {fileID: 919132149155446097, guid: e6e5ac1e6980b2d4886b678bf0876c14, type: 3}
+  - {fileID: 919132149155446097, guid: d7d38d0bcd09b8d4f96c578c44c4d1fe, type: 3}
+  cornerOvergrownPrefabs:
+  - {fileID: 919132149155446097, guid: 784f187c73aa18a4b93e98431dd31585, type: 3}
+  - {fileID: 919132149155446097, guid: 82f5d892014d5dd46b71a522346f2af1, type: 3}
+  columnPrefabs:
+  - {fileID: 919132149155446097, guid: d85245f53562ba049826d70d1446f6b3, type: 3}
+  - {fileID: 919132149155446097, guid: b828ae1200473ae4eba5f4ba9d201f99, type: 3}
+  - {fileID: 919132149155446097, guid: b8378c5bb35b12447911bfb489a185a8, type: 3}
+  doorPrefabs:
+  - {fileID: 919132149155446097, guid: 5f8a2af277af8c44c870f913b7590c0f, type: 3}
+  - {fileID: 919132149155446097, guid: c756dac77177ea3479f20df0d2aebd44, type: 3}
+  - {fileID: 919132149155446097, guid: 22bd361b49e984141b63b056a42cf5fa, type: 3}
+  - {fileID: 919132149155446097, guid: 3fc2662dd79295646bb610e4bb7d4c5c, type: 3}
+  archwayPrefabs:
+  - {fileID: 919132149155446097, guid: a276620ee77ac4c43a3e0a0290be4da1, type: 3}
+  - {fileID: 919132149155446097, guid: b3dba66559ca0a74c98a6d4f0010fe2f, type: 3}
+  - {fileID: 919132149155446097, guid: 62fa4b2a909e5404d81ae5af067a005e, type: 3}
+  - {fileID: 919132149155446097, guid: cb75e4c9c3c1ce248a440c5ec4c95fbb, type: 3}
+  wallWithArchPrefabs:
+  - {fileID: 919132149155446097, guid: 7a3862993eec8c74398c6de4d15174bf, type: 3}
+  - {fileID: 919132149155446097, guid: 0dee6a5ed504f5b4aa69a8cc9b46050e, type: 3}
+  - {fileID: 919132149155446097, guid: 66c734bf3fdb09048af3d10695725f28, type: 3}
+  - {fileID: 919132149155446097, guid: 325a983fbf169fc499fca53641016806, type: 3}
+  - {fileID: 919132149155446097, guid: 725fa3c26a659b3468b801db1216c520, type: 3}
+  stairsPrefabs:
+  - {fileID: 919132149155446097, guid: 50a27c3cff888a24eac5f234c807b339, type: 3}
+  - {fileID: 919132149155446097, guid: 201877986d303c248b0868d415ba86d7, type: 3}
+  trapdoorPrefab: {fileID: 919132149155446097, guid: 811f950138082e74faefe0473de6b711, type: 3}
+  railPrefabs:
+  - {fileID: 919132149155446097, guid: d67d45fe20137094ca18263dc9e1a653, type: 3}
+  - {fileID: 919132149155446097, guid: c04708a49c985fc4385eb5560be74ef4, type: 3}
+  - {fileID: 919132149155446097, guid: 0e2b1fc8e4361e149b3681a4e94b1bb7, type: 3}
+  bridgePrefabs:
+  - {fileID: 919132149155446097, guid: a1b551bc6e878bb41a109081969f70a6, type: 3}
+  - {fileID: 919132149155446097, guid: 2e94b55557b6a0142bcde4d6791b6689, type: 3}
+  - {fileID: 919132149155446097, guid: 5f22d010fbaacd04c970bdafed8793c1, type: 3}
+  - {fileID: 919132149155446097, guid: 826ea944863733441872b63b41124c8c, type: 3}
+  - {fileID: 919132149155446097, guid: b3e55c32ca84ced419a8ddda8a9dfc8c, type: 3}
+  furniturePropPrefabs:
+  - {fileID: 919132149155446097, guid: e6422e0362945224ab66ef8ce3c916df, type: 3}
+  - {fileID: 919132149155446097, guid: 9f71c9d501a0ba944afb6ab9d02c1646, type: 3}
+  - {fileID: 919132149155446097, guid: 94a9514f0243f784b9d30b1df4418e45, type: 3}
+  - {fileID: 919132149155446097, guid: 85e1be0ad4dcdac4da4707b532c0e5bf, type: 3}
+  - {fileID: 919132149155446097, guid: a615f7baf6337bf44bdba374203c67f0, type: 3}
+  - {fileID: 919132149155446097, guid: 7ac7107d88e38674982ff11def21c038, type: 3}
+  - {fileID: 919132149155446097, guid: d40eae198ecdd4b47932872c79416b3e, type: 3}
+  - {fileID: 919132149155446097, guid: abb5f0bd1a1bfea49b5d7d5d58f24808, type: 3}
+  - {fileID: 919132149155446097, guid: 5f19ffe52f3ffbb4cb1410aae6e76fbb, type: 3}
+  - {fileID: 919132149155446097, guid: 5d049c90164ed01489491dd3d6f8be0d, type: 3}
+  - {fileID: 919132149155446097, guid: e7a89274246e95a4fa03a698e431e25a, type: 3}
+  - {fileID: 919132149155446097, guid: 26bac9d2d2e85d84fa010bfe6ad0ad6c, type: 3}
+  - {fileID: 919132149155446097, guid: 59500efea718f2c48baf5a150e06b0bc, type: 3}
+  - {fileID: 919132149155446097, guid: 7743b0f1ed155d44cb1f7af315d79035, type: 3}
+  - {fileID: 919132149155446097, guid: c82bca597ec6c2f42a317f759af6fe49, type: 3}
+  trapPropPrefabs:
+  - {fileID: 919132149155446097, guid: d74129b8ed0bb5642a99d8c3c8da55fe, type: 3}
+  - {fileID: 919132149155446097, guid: 05f5bfce7597b804da955354b43f4e69, type: 3}
+  wallDecorPrefabs:
+  - {fileID: 919132149155446097, guid: adb337d25a691b646a1e346a5c35ae32, type: 3}
+  - {fileID: 919132149155446097, guid: 75049e15c6f7f2c479cd21d928908308, type: 3}
+  - {fileID: 919132149155446097, guid: f2a6a3a7976b8724d8c4150beb863bda, type: 3}
+  - {fileID: 919132149155446097, guid: ae626c8cd20cdc4488e9066924dd1ef5, type: 3}
+  - {fileID: 919132149155446097, guid: 90953c3a2840ad54b80b6c342fa253ba, type: 3}
+  - {fileID: 919132149155446097, guid: aa4ec26125548b64bb24fb7fa6dffe46, type: 3}
+  - {fileID: 919132149155446097, guid: 09325c461b5c0574789e4fa78f258999, type: 3}
+  - {fileID: 919132149155446097, guid: 49701e2acda6c2248b8310e129ddfd20, type: 3}
+  - {fileID: 919132149155446097, guid: 0b325890336c1474aa973c1a479060bf, type: 3}
+  torchPrefab: {fileID: 106552121044173155, guid: 1248be38b27c95f4e9770084e18d6bfd, type: 3}
+  torchesPerRoomMin: 1
+  torchesPerRoomMax: 2
+  extraTorchesUnderground: 1
+  vegetationPropPrefabs:
+  - {fileID: 919132149155446097, guid: cc32072748d0b004faecd5125bf8e17e, type: 3}
+  - {fileID: 919132149155446097, guid: d60d80c54ef37bc4fb314b67f224c656, type: 3}
+  - {fileID: 919132149155446097, guid: 879a989bcb888d2458391c39a8a51f11, type: 3}
+  - {fileID: 919132149155446097, guid: 2e62982f4e851184ebbd68ba77648ef1, type: 3}
+  - {fileID: 919132149155446097, guid: ec76fa9df958a2c49b0264b7c66c6658, type: 3}
+  - {fileID: 919132149155446097, guid: 9f1e07b17c654074b838f77df0d93ae7, type: 3}
+  - {fileID: 919132149155446097, guid: a55831a8200054f4ab0b599d43b4b7e7, type: 3}
+  - {fileID: 919132149155446097, guid: 1ab24586f5b749a488c8a8bc43b81c97, type: 3}
+  - {fileID: 919132149155446097, guid: 412e74c80fc53284b84b81006f346797, type: 3}
+  - {fileID: 919132149155446097, guid: b01c237f8b859554cb848f7b52922c06, type: 3}
+  - {fileID: 919132149155446097, guid: 2dff467cd54fa8049b7c9de9fdd86512, type: 3}
+  - {fileID: 919132149155446097, guid: 163b7890333244c468843dc761839ea9, type: 3}
+  doorwayDoorChance: 0.6
+  wallBrokenChance: 0.15
+  wallWindowChance: 0.1
+  overgrownCornerChance: 0.3
+  floorHoleChance: 0
+  floorTileOverlap: 1.02
+  propDensity: 0.6
+  propsPerRoomMax: 4
+  propMinSpacing: 1.2

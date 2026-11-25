@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 6203bcf166868e348b8f7152ea48184a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - trapdoorPrefab: {fileID: 919132149155446097, guid: 811f950138082e74faefe0473de6b711, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

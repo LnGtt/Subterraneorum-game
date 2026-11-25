@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96252b52e81ad04d9741ebc3bc4ebe6, type: 3}
+  m_Name: Rogue
+  m_EditorClassIdentifier: Assembly-CSharp::ClassDefinition
+  classId: Rogue
+  displayName: Sangarinus
+  roleName: Assassino
+  description: "Golpes r\xE1pidos de adaga que roubam a vida dos inimigos."
+  color: {r: 0.75, g: 0.45, b: 0.9, a: 1}
+  prefab: {fileID: 7804063661845923663, guid: dbe74d9aaf8e5f240b335e5fcbe6c31e, type: 3}
+  maxHealth: 100
+  moveSpeed: 6.8
+  dashCooldown: 0.6
+  attackStyle: 0
+  attackDamage: 16
+  attackCooldown: 0.28
+  attackRadius: 1.25
+  projectileSpeed: 18
+  projectileRange: 12
+  projectilePrefab: {fileID: 0}
+  lifeSteal: 0.2
+  ability1: {fileID: 11400000, guid: 4a7080797aa209d4aac304422ced7264, type: 2}
+  ability2: {fileID: 11400000, guid: cc6350d4f30c9434b919a24e46b7fd30, type: 2}

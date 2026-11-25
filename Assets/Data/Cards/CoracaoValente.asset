@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814f9425cfaeb3e48b3901c4bcc6cfe3, type: 3}
+  m_Name: CoracaoValente
+  m_EditorClassIdentifier: Assembly-CSharp::CardDefinition
+  title: "Cora\xE7\xE3o Valente"
+  effect: 5
+  value: 20
+  effectText: "Jogadores: +20 de vida m\xE1xima"
+  leftoverEffect: 7
+  leftoverValue: 0.1
+  leftoverText: 'Inimigos: +10% de vida'
+  atlasCell: {x: 11, y: 1}

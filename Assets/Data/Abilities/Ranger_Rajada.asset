@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abd04eef418cbbd4391ee7f3eeac6567, type: 3}
+  m_Name: Ranger_Rajada
+  m_EditorClassIdentifier: Assembly-CSharp::AbilityDefinition
+  kind: 2
+  displayName: Rajada de Flechas
+  description: Dispara 5 flechas em leque.
+  cooldown: 5
+  damage: 20
+  radius: 2
+  range: 14
+  duration: 2
+  count: 5
+  amount: 0.5
